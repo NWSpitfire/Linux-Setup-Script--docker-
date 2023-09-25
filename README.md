@@ -23,3 +23,5 @@ Designed for fast start of Proxmox VM's
 3. Run Script
 
         ./setup.sh
+
+4. Reboot
