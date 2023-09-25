@@ -10,8 +10,10 @@ echo "WARNING: This script uses root privellages"
 
 echo ""
 
-echo "--- Installing QEMU Guest Agent ---"
+echo "--- Installing Updates ---"
+sudo apt update && sudo apt upgrade -y
 
+echo "--- Installing QEMU Guest Agent ---"
 sudo apt install qemu-guest-agent -y
 
 #clear terminal
