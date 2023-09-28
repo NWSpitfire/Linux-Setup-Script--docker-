@@ -34,7 +34,7 @@ echo \
 sudo apt-get update
 
 echo "--- Install Docker CE, Docker Compose and other required packages ---"
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+sudo apt-get install docker-ce docker-ce-cli docker-compose containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 #clear terminal
 clear
