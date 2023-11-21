@@ -1,23 +1,20 @@
 # Linux Setup Script to install Docker, Portainer and others.
 
-#V2.0
+#V1.1
 
 #! /bin/bash
 
 
-echo "Welcome to the JDRTS Linux VM Setup Script v2"
+echo "Welcome to the JDRTS Linux VM Setup Script"
 echo "WARNING: This script uses root privellages"
 
 echo ""
 
-echo "--- Installing Nala (APT Wrapper) for faster installation---"
-sudo apt install nala -y
-
-echo "--- Installing System Updates ---"
-sudo nala update && sudo nala upgrade -y
+echo "--- Installing Updates ---"
+sudo apt update && sudo apt upgrade -y
 
 echo "--- Installing QEMU Guest Agent ---"
-sudo nala install qemu-guest-agent -y
+sudo apt install qemu-guest-agent -y
 
 #clear terminal
 clear
@@ -37,7 +34,7 @@ echo \
 sudo apt-get update
 
 echo "--- Install Docker CE, Docker Compose and other required packages ---"
-sudo nala install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
 #clear terminal
 clear
