@@ -2,8 +2,11 @@
  
 ###### NOTE: This is badly written for my use case only. USE AT YOUR OWN RISK.
 
+**Version 2.0**
+
 This script auto downloads and installs;
 
+ - Nala (APT wrapper for faster [and multithreaded] updates & installs)
  - QEMU-Guest-Agent
  - Docker CE
  - Portainer CE
