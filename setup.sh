@@ -18,6 +18,8 @@ sudo nala update && sudo nala upgrade -y
 
 echo "--- Installing QEMU Guest Agent ---"
 sudo nala install qemu-guest-agent -y
+sudo systemctl start qemu-guest-agent
+sudo systemctl enable qemu-guest-agent
 
 #clear terminal
 clear
