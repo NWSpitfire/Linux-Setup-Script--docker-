@@ -13,7 +13,7 @@ This script auto downloads and installs;
 
 Designed for fast start of Proxmox VM's
 
-## Download and Run
+## Download and Run Standard Script
 
 1. Download file
 
@@ -29,3 +29,19 @@ Designed for fast start of Proxmox VM's
 
 4. Reboot
 
+
+## Download and Run Basic Script
+
+1. Download file
+
+        curl https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup-basics.sh > setup-basics.sh
+
+2. Make Executable
+
+        sudo chmod +x setup-basics.sh
+
+3. Run Script
+
+        ./setup-basics.sh
+
+4. Reboot
