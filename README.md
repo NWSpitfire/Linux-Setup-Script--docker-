@@ -33,7 +33,23 @@ Designed for fast start of Proxmox VM's
 
 3. Run Script
 
-        ./setup.sh
+        sudo bash setup.sh
+
+4. Reboot
+
+## Download and Run Portainer Script
+
+1. Download file
+
+        curl https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup.sh > setup.sh
+
+2. Make Executable
+
+        sudo chmod +x setup.sh
+
+3. Run Script
+
+        ./setup-portainer.sh
 
 4. Reboot
 
