@@ -65,14 +65,14 @@ sleep 3s
 
 echo "--- Install Dockge WebUI ---"
 # Create directories that store your stacks and stores Dockge's stack
-mkdir -p /opt/stacks /opt/dockge
+sudo mkdir -p /opt/stacks /opt/dockge
 cd /opt/dockge
 
 # Download the compose.yaml
 curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml
 
 # Start the server
-docker compose up -d
+sudo docker compose up -d
 
 
 sudo docker ps
