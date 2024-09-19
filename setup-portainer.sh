@@ -5,13 +5,10 @@
 #! /bin/bash
 
 
-echo "Welcome to the JDRTS Linux VM Setup Script v3"
+echo "Welcome to the JDRTS Linux VM Setup Script v2"
 echo "WARNING: This script uses root privellages"
 
 echo ""
-
-#wait 5s
-sleep 5s
 
 echo "--- Installing Nala (APT Wrapper) for faster installation---"
 sudo apt install nala -y
@@ -23,9 +20,6 @@ echo "--- Installing QEMU Guest Agent ---"
 sudo nala install qemu-guest-agent -y
 sudo systemctl start qemu-guest-agent
 sudo systemctl enable qemu-guest-agent
-
-#wait 3s
-sleep 3s
 
 #clear terminal
 clear
@@ -60,26 +54,11 @@ echo ""
 echo ""
 echo ""
 
-#wait 3s
-sleep 3s
-
-echo "--- Install Dockge WebUI ---"
-# Create directories that store your stacks and stores Dockge's stack
-mkdir -p /opt/stacks /opt/dockge
-cd /opt/dockge
-
-# Download the compose.yaml
-curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml --output compose.yaml
-
-# Start the server
-docker compose up -d
-
+echo "--- Install Portainer WebUI ---"
+sudo docker volume create portainer_data
+sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 
 sudo docker ps
-
-echo ""
-echo ""
-echo ""
 
 ip a
 
