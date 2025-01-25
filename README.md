@@ -25,6 +25,33 @@ Designed for fast start of Proxmox VM's
 
 1. Download file
 
+        curl -s https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup.sh | bash
+
+2. Reboot
+
+## Download and Run Portainer Script
+
+1. Download file
+
+        curl -s https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup-portainer.sh | bash
+
+2. Reboot
+
+## Download and Run Basic Script
+
+1. Download file
+
+        curl -s https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup-basics.sh | bash
+
+2. Reboot
+
+
+## -- Debugging --
+
+## Download and Run Standard Script (Debugging)
+
+1. Download file
+
         curl https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup.sh > setup.sh
 
 2. Make Executable
@@ -37,11 +64,11 @@ Designed for fast start of Proxmox VM's
 
 4. Reboot
 
-## Download and Run Portainer Script
+## Download and Run Portainer Script (Debugging)
 
 1. Download file
 
-        curl https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup.sh > setup.sh
+        curl https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup-portainer.sh > setup.sh
 
 2. Make Executable
 
@@ -54,7 +81,7 @@ Designed for fast start of Proxmox VM's
 4. Reboot
 
 
-## Download and Run Basic Script
+## Download and Run Basic Script (Debugging)
 
 1. Download file
 
