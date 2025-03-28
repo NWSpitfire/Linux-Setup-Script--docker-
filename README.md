@@ -7,7 +7,9 @@
 **CHANGELOG**
 
 V1.0 - Initial 
+
 V2.0 - Added basic script and updated main setup script.
+
 V3.0 - Remove Portainer from the main setup script and replace with Dockge. Create dedicated "-portainer.sh" script for portainer. Add sleep functions to allow for better readability of actions in the script.
 
 **ABOUT**
