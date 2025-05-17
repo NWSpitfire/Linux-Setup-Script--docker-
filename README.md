@@ -20,6 +20,8 @@ This script auto downloads and installs;
  - QEMU-Guest-Agent
  - Docker CE
  - Portainer CE
+ - Tree
+ - Midnight Commander (Terminal File Browser)
 
 Designed for fast start of Proxmox VM's
 
