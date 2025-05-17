@@ -24,6 +24,12 @@ sudo nala install qemu-guest-agent -y
 sudo systemctl start qemu-guest-agent
 sudo systemctl enable qemu-guest-agent
 
+echo "--- Installing (file) Tree ---"
+sudo nala install tree
+
+echo "--- Installing Midnight Commander (Terminal File Browser) ---"
+sudo nala install mc
+
 #wait 3s
 sleep 3s
 
