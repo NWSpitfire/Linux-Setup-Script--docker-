@@ -74,12 +74,8 @@ sudo curl https://raw.githubusercontent.com/louislam/dockge/master/compose.yaml 
 # Start the server
 sudo docker compose up -d
 
-echo "--- Installing (file) Tree ---"
-sudo nala install tree
-
-echo "--- Installing Midnight Commander (Terminal File Browser) ---"
-sudo nala install mc
-
+echo "--- Installing (file) Tree, Midnight Commander (Terminal File Browser) & DUF ---"
+sudo nala install tree mc duf
 
 sudo docker ps
 
