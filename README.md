@@ -22,6 +22,7 @@ This script auto downloads and installs;
  - Portainer CE
  - Tree
  - Midnight Commander (Terminal File Browser)
+ - DUF
 
 Designed for fast start of Proxmox VM's
 
