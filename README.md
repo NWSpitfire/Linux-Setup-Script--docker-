@@ -34,6 +34,14 @@ Designed for fast start of Proxmox VM's
 
 2. Reboot
 
+## Download and Run Docker Only Script
+
+1. Download file
+
+        curl -s https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup-docker.sh | bash
+
+2. Reboot
+
 ## Download and Run Portainer Script
 
 1. Download file
