@@ -64,7 +64,7 @@ sudo docker run --name some-nginx -d -p 8080:80
 
 
 echo "--- Installing (file) Tree, Midnight Commander (Terminal File Browser) & DUF ---"
-sudo nala install tree mc duf
+sudo nala install tree mc duf iotop
 
 sudo docker ps
 
