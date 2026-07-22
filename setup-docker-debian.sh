@@ -79,7 +79,7 @@ echo ""
 #wait 3s
 sleep 3s
 
-echo "--- Install nginx to test docker ---"
+echo "--- Install hello-world to test docker ---"
 
 sudo docker run hello-world
 
