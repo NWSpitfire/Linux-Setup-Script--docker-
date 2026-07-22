@@ -36,7 +36,7 @@ curl -s https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-
 
 2. Reboot
 
-## Download and Run Docker Only Script
+## Download and Run Docker Only Script (Ubuntu)
 
 1. Download file
 
@@ -46,12 +46,12 @@ curl -s https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-
 
 2. Reboot
 
-## Download and Run Docker Only Script
+## Download and Run Docker Only Script (Debian 13 - Trixie)
 
 1. Download file
 
 ```console
-curl -s https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup-docker.sh | bash
+curl -s https://raw.githubusercontent.com/NWSpitfire/Linux-Setup-Script--docker-/main/setup-docker-debian.sh | bash
 ```
 
 2. Reboot

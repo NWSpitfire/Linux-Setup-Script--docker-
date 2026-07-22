@@ -1,6 +1,6 @@
 # Linux Setup Script to install Docker on vanilla Debian (Trixie)
 
-#V2.0
+#V1.0
 
 #! /bin/bash
 
